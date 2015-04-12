@@ -1,13 +1,16 @@
 package com.csair.javafx;
 
-import java.io.File;
-
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
 
+/**
+ * the first demo of javaFx
+ * @author bbfking
+ *
+ */
 public class HelloWorld extends Application{
 	 public static void main(String[] args) {  
 	       launch(args);  
@@ -19,8 +22,6 @@ public class HelloWorld extends Application{
 		stage.setScene(new Scene(message));
 		stage.setTitle("Hello");
 		stage.show();
-		
-		File file = new File("");
 	}
 
 }
