@@ -4,7 +4,6 @@ import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.util.stream.Stream;
-
 public class ZoneIdStream {
 	public static void main(String[] args) {
 		LocalDateTime ldt = LocalDateTime.now();
